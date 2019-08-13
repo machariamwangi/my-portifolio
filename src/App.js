@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import PageWrapper from "./Components/PageWrapper";
-import Home from "./Components/Pages/Home";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+//pages
+import Home from "./Components/Pages/Home";
+import About from "./Components/Pages/About";
 
 class App extends Component {
   render() {
@@ -9,7 +12,8 @@ class App extends Component {
       <div>
         <Router>
           <PageWrapper>
-            <Route path="/" component={Home} />
+            <Route exact={true} path="/" component={Home} />
+            <Route path="/about" component={About} />
           </PageWrapper>
         </Router>
       </div>
