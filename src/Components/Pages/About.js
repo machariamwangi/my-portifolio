@@ -12,7 +12,7 @@ class About extends Component {
           showButton={false}
           image={image}
         />
-        <section className="page-section" id="about">
+        <section id="about">
           <div className="container">
             <div className="row">
               <div className="col-lg-12 text-center">
