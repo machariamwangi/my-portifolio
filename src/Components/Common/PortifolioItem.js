@@ -14,19 +14,15 @@ class PortifolioItem extends Component {
               <i className="fas fa-plus fa-3x" />
             </div>
           </div>
-          <img
-            className="img-fluid"
-            src="img/portfolio/01-thumbnail.jpg"
-            alt=""
-          />
+          <img className="img-fluid" src={this.props.image} alt="" />
         </a>
         <div className="portfolio-caption">
-          <h4>Threads</h4>
-          <p className="text-muted">Illustration</p>
+          <h4>{this.props.title}</h4>
+          <p className="text-muted">{this.props.subtitle}</p>
         </div>
       </div>
     );
   }
 }
 
-export default PortifolioIteml;
+export default PortifolioItem;
