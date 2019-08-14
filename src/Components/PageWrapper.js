@@ -28,12 +28,12 @@ class PageWrapper extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/services">
+                  <Link className="nav-link js-scroll-trigger" to="/Services">
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/portfolio">
+                  <Link className="nav-link js-scroll-trigger" to="/portifolio">
                     Portfolio
                   </Link>
                 </li>
